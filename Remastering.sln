@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Remastering", "Remastering\Remastering.csproj", "{5122E492-3DEC-4897-A468-4A6E6EA86700}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5122E492-3DEC-4897-A468-4A6E6EA86700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5122E492-3DEC-4897-A468-4A6E6EA86700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5122E492-3DEC-4897-A468-4A6E6EA86700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5122E492-3DEC-4897-A468-4A6E6EA86700}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0CA7403-0442-4B23-A96F-CD47DF73263C}
+	EndGlobalSection
+EndGlobal
