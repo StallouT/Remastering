@@ -1,0 +1,39 @@
+﻿@model Remastering.Models.Album
+@{
+    ViewBag.Title = "Добавление альбома";
+}
+<form asp-action="create" asp-controller="home">
+    <div class="form-group">
+        <label asp-for="Id" class="control-label">Id</label>
+        <input type="text" asp-for="Id" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Name" class="control-label">Name</label>
+        <input type="text" asp-for="Name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Label" class="control-label">Label</label>
+        <input type="text" asp-for="Label" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Price" class="control-label">Price</label>
+        <input type="number" asp-for="Price" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Year" class="control-label">Year</label>
+        <input type="number" asp-for="Year" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Id_Bands" class="control-label">Id_Bands</label>
+        <input type="number" asp-for="Id_Bands" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Id_Genres" class="control-label">Id_Genres</label>
+        <input type="number" asp-for="Id_Genres" class="form-control" />
+    </div>
+
+
+    <div class="form-group">
+        <input type="submit" value="Send" class="btn btn-default" />
+    </div>
+</form>
